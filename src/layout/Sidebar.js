@@ -23,7 +23,7 @@ const Sidebar = () => {
     }
   return (
     <>
-    {/* <div className='sidebar-content'>
+    <div className='sidebar-content'>
         <div className='logo'>
             <img/>
         </div>
@@ -49,7 +49,7 @@ const Sidebar = () => {
             </div>
             <LinkComponent path='/' content='Home2' icon={<IoIosHome/>}/>
         </div>
-    </div> */}
+    </div>
     
     </>
   )
