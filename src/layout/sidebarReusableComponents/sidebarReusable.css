@@ -1,0 +1,21 @@
+.nested-links{
+    height:50px;
+    overflow: hidden;
+    /* background-color: blue; */
+    transition: height 0.5s ease-in-out;
+}
+.nested-links.close-links{
+    height:0px;
+}
+.each-link-div,.nested-links-content{
+    background-color: black;
+    color:red;
+    width:250px;
+}
+.nested-content{
+    width:100%;
+    background-color: yellow;
+}
+/* a{
+    width:100%;
+} */
